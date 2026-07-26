@@ -1,8 +1,25 @@
 aid: etherealize
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/etherealize.png
 name: Etherealize
-description: 'Etherealize is a company surfaced as a portfolio company of electric-capital, paradigm and
-  added to the API Evangelist network as a stub for enrichment. Sector: fintech. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'Etherealize builds institutional-grade infrastructure to bring Wall Street and financial
+  institutions onto the Ethereum blockchain, focused on asset tokenization, Ethereum-native settlement,
+  and institutional privacy for multi-trillion-dollar markets. Founded to connect institutions to the
+  Ethereum ecosystem, the company pairs research and market education with products for programmable,
+  private, and global finance. Backed by Electric Capital and Paradigm, Etherealize raised $40M in
+  September 2025. As of this enrichment pass the company publishes a marketing site, a research/blog
+  content hub, and careers and newsroom pages, but exposes no public developer or API surface, no
+  documentation portal, and no client SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/etherealize/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Fintech
+- Ethereum
+- Blockchain
+- Tokenization
+- Institutional Finance
+- Settlement
+- Digital Assets
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +49,18 @@ maintainers:
 common:
 - type: Website
   url: https://www.etherealize.com/
+- type: Blog
+  url: https://www.etherealize.com/content
+- type: About
+  url: https://www.etherealize.com/about
+- type: Careers
+  url: https://www.etherealize.com/careers
+- type: Newsroom
+  url: https://www.etherealize.com/newsroom
+- type: DomainSecurity
+  url: security/etherealize-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
